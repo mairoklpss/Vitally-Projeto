@@ -68,7 +68,7 @@ if "nome" in st.session_state and "email" in st.session_state and "senha" in st.
     #navegar para outra página
     navegar = st.button("Ir para Registro de Atividades")
     if navegar:
-        st.switch_page("pages\Registro de Atividades.py")
+        st.switch_page("pages/Registro de Atividades.py")
 
     navegar1 = st.button("Ir para Suas Metas")
     if navegar1:
