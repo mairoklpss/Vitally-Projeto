@@ -1,0 +1,6 @@
+.stButton>button {
+    background-color: rgb(0, 143, 169);  /* Cor de fundo */
+    color: rgb(255, 255, 255);  /* Cor do texto */
+    border-radius: 10px;  /* Borda arredondada */
+    padding: 10px 20px;  /* Espaçamento interno */
+}
