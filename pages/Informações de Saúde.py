@@ -44,7 +44,7 @@ if "nome" in st.session_state and "email" in st.session_state and "senha" in st.
                 st.session_state["altura"] = altura
                 st.session_state["peso"] = peso
                 st.session_state["cadastro"] = True
-                st.switch_page("pages\Ingestão de Água.py")
+                st.switch_page("pages/Ingestão de Água.py")
             else:
                 st.error("Por favor, verifique se todos os campos estão preenchidos.")
 
