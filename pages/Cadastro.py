@@ -84,7 +84,7 @@ else:
             st.session_state["senha"] = senha
             st.session_state["telefone"] = telefone
             st.session_state["cadastro_realizado"] = True           
-            st.switch_page("pages\Informações de Saúde.py")
+            st.switch_page("pages/Informações de Saúde.py")
 import streamlit as st
 
 # Injetar CSS personalizado
